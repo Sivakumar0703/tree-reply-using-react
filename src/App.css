@@ -1,0 +1,45 @@
+
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+
+/* common stylings */
+.btn{
+    padding:5px;
+    border-radius: 5px;
+    border: 1px solid black;
+    cursor: pointer;
+}
+
+/* input box component stylings */
+#messaging-area{
+    padding:15px;
+}
+
+#input-box{
+    padding:5px;
+}
+
+/* messages container stylings */
+
+#messages-container{
+    padding: 15px;
+    background-color:navy ;
+    color:white;
+    margin: 20px;
+    width:60%;
+    height:500px;
+    overflow-y: scroll;
+    overflow-x: scroll;
+}
+
+#msg-container{
+    height:100vh;
+    background-color:aliceblue;
+}
+
+#messages-container::-webkit-scrollbar{
+    display: none;
+}
